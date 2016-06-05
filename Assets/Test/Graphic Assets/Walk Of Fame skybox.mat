@@ -2,48 +2,60 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 3
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Walk Of Fame skybox
-  m_Shader: {fileID: 4800000, guid: 5e0363634170e4adfacfcdb48cf194af, type: 3}
-  m_ShaderKeywords: []
+  m_Shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _SUNDISK_HIGH_QUALITY
+  m_LightmapFlags: 5
   m_CustomRenderQueue: -1
+  stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
-    m_TexEnvs: {}
+    m_TexEnvs: []
     m_Floats:
-      data:
-        first:
-          name: _Intensity
-        second: 1
+    - first:
+        name: _AtmosphereThickness
+      second: 1
+    - first:
+        name: _Exposure
+      second: 1.3
+    - first:
+        name: _Intensity
+      second: 1
+    - first:
+        name: _SunDisk
+      second: 2
+    - first:
+        name: _SunSize
+      second: 0.04
     m_Colors:
-      data:
-        first:
-          name: _SHAr
-        second: {r: .312602133, g: .0481133349, b: -.0658104345, a: .641293108}
-      data:
-        first:
-          name: _SHAg
-        second: {r: .286417633, g: .173308149, b: -.0618516393, a: .596976995}
-      data:
-        first:
-          name: _SHAb
-        second: {r: .237915561, g: .397836357, b: -.0621705018, a: .641477406}
-      data:
-        first:
-          name: _SHBr
-        second: {r: -.141452298, g: .00759834098, b: -.317703187, a: -.129272699}
-      data:
-        first:
-          name: _SHBg
-        second: {r: -.0672449693, g: -.0016070907, b: -.278647214, a: -.129255682}
-      data:
-        first:
-          name: _SHBb
-        second: {r: .0055519212, g: -.0128071541, b: -.274035752, a: -.129693493}
-      data:
-        first:
-          name: _SHC
-        second: {r: .253520846, g: .172574505, b: .0737705827, a: 0}
+    - first:
+        name: _GroundColor
+      second: {r: 0.36899996, g: 0.34899998, b: 0.34099993, a: 1}
+    - first:
+        name: _SHAb
+      second: {r: 0.23791556, g: 0.39783636, b: -0.0621705, a: 0.6414774}
+    - first:
+        name: _SHAg
+      second: {r: 0.28641763, g: 0.17330815, b: -0.06185164, a: 0.596977}
+    - first:
+        name: _SHAr
+      second: {r: 0.31260213, g: 0.048113335, b: -0.065810435, a: 0.6412931}
+    - first:
+        name: _SHBb
+      second: {r: 0.005551921, g: -0.012807154, b: -0.27403575, a: -0.1296935}
+    - first:
+        name: _SHBg
+      second: {r: -0.06724497, g: -0.0016070907, b: -0.2786472, a: -0.12925568}
+    - first:
+        name: _SHBr
+      second: {r: -0.1414523, g: 0.007598341, b: -0.3177032, a: -0.1292727}
+    - first:
+        name: _SHC
+      second: {r: 0.25352085, g: 0.1725745, b: 0.07377058, a: 0}
+    - first:
+        name: _SkyTint
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
